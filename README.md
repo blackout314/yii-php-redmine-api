@@ -6,9 +6,9 @@
 
 ## how use
 
-- place the files in *extensions/php-redmine-api*
+### place the files in *extensions/php-redmine-api*
 
-- add this code in your controllers (eg.)
+### add this code in your controllers (eg.)
 ```php
 $redmineClient = Yii::createComponent(
     'application.extensions.php-redmine-api.phpRedmineApi', 
