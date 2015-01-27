@@ -2,8 +2,6 @@
 
 namespace Yii;
 
-//require_once 'php-redmine-api/autoload.php';
-
 /**
  * Yii PHP Redmine API
  * @author Carlo Denaro <me at carlodenaro dot com>
@@ -12,21 +10,19 @@ namespace Yii;
 class phpRedmineApi {
 	private $client;
 
-    /**
-     * @var url    url of redmine
-     * @var api    apiKey
-     */
+	/**
+	 * @var string $url    url of redmine
+	 * @var string $api    apiKey
+	 */
 	public function __construct ($url, $api)
 	{
 		$this->client = new Redmine\Client($url, $api);
 	}
 	/**
-	 * @var e      type of entity
+	 * @var string $e      type of entity
 	 */
 	public function get ($e)
 	{
 		return $this->client->api($e)->all();
 	}
 }
-
-?>
