@@ -1,6 +1,8 @@
 <?php
 
-require_once 'php-redmine-api/autoload.php';
+namespace Yii;
+
+//require_once 'php-redmine-api/autoload.php';
 
 /**
  * Yii PHP Redmine API

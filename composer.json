@@ -1,0 +1,19 @@
+{
+    "name": "blackout314/yii-php-redmine-api",
+    "description": "Yii Wrapper for PHP Redmine API",
+	"type": "library",
+	"homepage": "https://github.com/blackout314/yii-php-redmine-api",
+	"keywords": ["redmine", "api", "yii"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Carlo <blackout> Denaro",
+			"email": "me@carlodenaro.com",
+			"homepage": "http://www.carlodenaro.com"
+		}
+	],
+    "require": {
+        "php": ">=5.4",
+        "kbsali/php-redmine-api": ">=1.5.2"
+    }
+}

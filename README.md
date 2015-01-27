@@ -4,7 +4,7 @@
 
 [PHP Redmine API](https://github.com/kbsali/php-redmine-api)
 
-## how use
+## how use (fix cause packaginst - under work)
 
 ### place the files in *extensions/php-redmine-api*
 
